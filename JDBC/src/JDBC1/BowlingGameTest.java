@@ -13,10 +13,10 @@ class BowlingGameTest {
 			bg.roll(pins);
 		}
 	}
-	@BeforeEach
-	public void before() {
-		bg = new Game();
-	}
+//	@BeforeEach
+//	public void before() {
+//		bg = new Game();
+//	}
 	@AfterEach
 	public void after() {
 		bg = null;
